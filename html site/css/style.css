@@ -1,0 +1,402 @@
+﻿*{margin:0; padding:0}
+@font-face {
+    font-family: Montserrat Black; /* Имя шрифта */
+    src: url(../fonts/Montserrat-Black.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Montserrat ExtraLight; /* Имя шрифта */
+    src: url(../fonts/Montserrat-ExtraLight.ttf); /* Путь к файлу со шрифтом */
+   }
+   
+header
+	{
+		width:100%;
+		height: 1100px;
+		background: url(../images/header-bg.jpg) center center no-repeat;
+		background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;float:left
+	}
+header h1
+	{
+		text-align:center;
+		color:white;
+		padding-top: 40%;
+		font-family: Montserrat Black;
+		font-size: 4em;
+		
+	}
+header p
+	{
+		text-align:center;
+		color:white;
+		padding-top:1%;
+		font-family: Montserrat ExtraLight;
+		font-size: 1.5em
+	} 
+#button	
+	{
+		width:400px;
+		height:100px;
+		margin:4% auto;background:none;
+		padding-top:1%;
+	}
+.more
+	{
+		text-align:center;
+		background:white;
+		padding:25px;
+		width:120px;
+		font-family: Montserrat ExtraLight;
+		font-size: 1em;
+		float:left;
+		border-radius:4px;
+		margin-right:15px;
+		cursor:pointer
+			
+	}
+.invite
+	{
+		text-align:center;
+		background:#8BE2E5;
+		padding:25px;
+		width:120px;
+		font-family: Montserrat ExtraLight;
+		font-size: 1em;
+		float:right;
+		border-radius:4px;
+		margin-left:15px;
+		color:white;
+		cursor:pointer
+	}
+.anim
+	{
+		width:40px;
+		height:50px;
+		margin:4% auto;background:red;
+		padding-top:1%;
+	}
+.block
+	{
+		width:1200px;
+		height:220px;
+		margin:15% auto;background:none;
+	}	
+.dws-bl
+	{
+		width:300px;
+		height:150px;
+		background:none;
+		text-align:center;
+		margin-top:5px
+	}
+.block h3
+	{
+		font-family: Montserrat Black;
+		font-size: 1em;
+		margin-top:10px;
+		float:left;
+	}
+	
+.block h5
+	{
+		font-family: Montserrat ExtraLight;
+		font-size: 0.9em;
+		margin-top:15px;
+		float:left;
+		text-align:justify
+		
+	}	
+.dws-block1
+	{
+		width:390px;
+		height:200px;
+		background:none;
+		float:left;
+		margin-right:15px;
+		text-align:center;
+		border-top:7px solid purple
+	}
+.dws-block2
+	{
+		width:390px;
+		height:200px;
+		background:none;
+		float:left;
+		margin-right:15px;
+		text-align:center;
+		border-top:7px solid #8BE2E5
+	}
+.dws-block3
+	{
+		width:390px;
+		height:200px;
+		background:none;
+		float:right;
+		border-top:7px solid orange;
+		text-align:center
+	}	
+		
+nav
+	{
+		width:100%;
+		height:70px;
+		background: #8BE2E5;
+		position: fixed;
+	}
+.logo img
+	{
+		float:left;
+		margin:20px 20px 20px 60px;
+		cursor:pointer;
+		opacity:0.7;
+	}
+.logo img:hover
+	{
+		opacity:1;
+	}
+.nav-text
+	{
+		float: right;
+		margin: 25px 60px 40px 40px
+	}
+.nav-text a
+	{
+		color: #fff;
+		font-family: Montserrat ExtraLight;
+		margin:10px;
+		cursor: pointer;
+		opacity:0.7;
+	}
+.nav-text a:hover
+	{
+		opacity:1;
+	}
+div#firsbg
+	{
+		width:100%;
+		height:1100px;
+		background: url(../images/be-the-first-bg.jpg) center center fixed no-repeat;
+		background-size:cover;
+		-o-background-size:cover;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		text-align:center;float:left
+	}
+div#section
+	{
+		width:100%;
+		height:600px;float:left
+	}
+div#firstsection
+	{
+		width:100%;
+		height:1000px;
+		background: #8BE2E5;float:left;
+		
+	}
+div#firstsection h1
+	{
+		text-align:center;
+		color:white;
+		padding-top: 10%;
+		font-family: Montserrat Black;
+		font-size: 2em;
+		
+	}
+div#firstsection p
+	{
+		text-align:center;
+		color:white;
+		padding-top:1%;
+		font-family: Montserrat ExtraLight;
+		font-size: 1.5em
+	} 
+	
+.headlineblock
+	{
+		width:1050px;
+		height:420px;
+		background: none;
+		margin:4% auto;
+		position:relative;
+	}
+	
+.headline
+	{
+		z-index:2;
+		width:350px;
+		height:420px;
+		background: white;
+		border-radius:15px 15px 0px 0px;
+		position:absolute;
+		top:0;
+		left:0
+	}
+.headline2
+	{
+		z-index:3;
+		width:350px;
+		height:470px;
+		background: white;
+		border-radius:15px 15px 0px 0px;
+		position:absolute;
+		top:-15px;
+		left:350px;
+		-webkit-box-shadow:1px 1px 11px 0px rgba(25, 25, 25, 0.75);
+		-moz-box-shadow:1px 1px 11px 0px rgba(25, 25, 25, 0.75);
+		box-shadow:1px 1px 11px 0px rgba(25, 25, 25, 0.75)
+	}
+.headline3
+	{
+		z-index:1;
+		width:350px;
+		height:420px;
+		background: white;float:left;
+		border-radius:15px 15px 0px 0px;
+		position:absolute;
+		top:0;
+		left:700px
+	}	
+	
+.dws-headline
+	{
+		width:350px;
+		height:55px;
+		background: black;
+		border-radius:15px 15px 0px 0px;
+	}
+.dws-headline h2
+	{
+		text-align:center;
+		color:white;
+		padding-top: 5%;
+		font-family: Montserrat Black,sans-serif;
+		font-size: 0.8em;
+		
+	}	
+	
+.price
+	{
+		width:350px;
+		height:85px;
+		background: black;
+		text-align:center
+	}
+.price:hover
+	{
+		width:350px;
+		height:85px;
+		background: black;
+		opacity:0.9;
+		
+	}	
+.pr{width:340px; padding-top:17px; float:left}	
+.pr h2
+	{	
+	width:340px;
+	height:55px;	
+	text-align:center;
+	color:white;
+	font-family: Montserrat Black;
+	font-size: 2em;
+	}
+	
+.b	{
+	color:grey;
+	font-family:Montserrat ExtraLight;
+	font-size: 1em;
+	}
+.row{
+	width:350px;
+	height:280px;
+	background:none;
+	
+	}		
+.spisok h5{
+	height:40px;
+	text-align:center;
+	color:grey;
+	font-family: Montserrat ExtraLight,sans-serif;
+	font-size: 0.8em;
+	padding:15px;
+	border-bottom:0.5px solid #dadada
+	}
+.spisok1 h5{
+	height:25px;
+	text-align:center;
+	color:grey;
+	font-family: Montserrat Black,sans-serif;
+	font-size: 0.8em;
+	padding:10px;
+	border-bottom:0.5px solid #dadada
+	}
+.spisok2 h5{
+	height:33px;
+	text-align:center;
+	color:#8BE2E5;
+	font-family: Montserrat Black,sans-serif;
+	font-size: 1em;
+	padding:22px;
+	}
+.spisok2 h5:hover{
+	height:33px;
+	text-align:center;
+	color:#8BE2E5;
+	font-family: Montserrat Black,sans-serif;
+	font-size: 1em;
+	padding:22px;
+	background:black;
+	opacity:0.2;
+	cursor:pointer
+	}
+.sms
+	{
+	width:100px;
+	height:100px;
+	margin:40px auto
+	}	
+#firsbg h1
+	{
+		text-align:center;
+		color:white;
+		padding-top:25%;
+		font-family: Montserrat Black;
+		font-size: 3em;
+		
+	}
+	
+	
+.img{width: 500px; height:600px; margin: 100px auto; text-align:center}
+.img img{width:100%}
+#firsbg p
+	{
+		text-align:center;
+		color:white;
+		padding-top:2%;
+		font-family: Montserrat ExtraLight;
+		font-size: 1.5em
+	} 
+	
+#dwp-section
+	{
+		width:100%;
+		height:440px;
+		background: #F2F2F2;float:left
+		
+	}
+#conteiner
+	{
+		width:100%;
+		height:440px;
+		background:#fff ;
+		border-bottom:1px solid #dadada;float:left
+	}
+footer	
+	{
+		width:100%;
+		height:140px;
+		background: #fff;float:left
+	}
+
